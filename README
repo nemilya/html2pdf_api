@@ -1,0 +1,5 @@
+sudo dpkg -i wkhtmltox-0.12.2_linux-trusty-amd64.deb
+
+sudo apt-get install wkhtmltopdf
+sudo apt-get install openssl build-essential xorg libssl-dev
+sudo apt-get install xvfb
