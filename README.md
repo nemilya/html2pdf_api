@@ -8,7 +8,9 @@ You will need ruby v.2.2.2 for correct work.
 
 If you have ubuntu 14.04 you need to install this tool:
 
-`sudo dpkg -i wkhtmltox-0.12.2_linux-trusty-amd64.deb`
+```ruby
+sudo dpkg -i wkhtmltox-0.12.2_linux-trusty-amd64.deb
+```
 
 And this:
 
@@ -22,13 +24,17 @@ For more modern versions update this packages.
 
 Delete **Gemfile.lock** and run:
 
-`bundle install`
+```ruby
+bundle install
+```
 
 ## Usage
 
 To run this application select free port and use command(8083 in this example is a port):
 
-`rackup -p 8083 -o 0.0.0.0`
+```ruby
+rackup -p 8083 -o 0.0.0.0
+```
 
 Go to **/** adress to check your application work properly. You should see **"hi"**. Say hello back and go to **/convert**
 
