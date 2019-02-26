@@ -12,11 +12,11 @@ If you have ubuntu 14.04 you need to install this tool:
 
 And this:
 
-`
-sudo apt-get install wkhtmltopdf /br
-sudo apt-get install openssl build-essential xorg libssl-dev /br
+```ruby
+sudo apt-get install wkhtmltopdf
+sudo apt-get install openssl build-essential xorg libssl-dev
 sudo apt-get install xvfb
-`
+```
 
 For more modern versions update this packages.
 
